@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Carolina Giorno`,
-    description: 'Blog profissional de Carolina Giorno.',
+    position: `Full-stack freelancer`,
+    description: `Blog profissional de Carolina Giorno.`,
     author: `@carolinagiorno`,
   },
   plugins: [
