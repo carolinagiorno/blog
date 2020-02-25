@@ -7,7 +7,8 @@ import PostItem from "../components/PostItem"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Home</h1>
+    <PostItem />
+    <PostItem />
     <PostItem />
   </Layout>
 )

@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     background: #16202c;
-    font-size: 100%
+    font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   	line-height: 1;
   }

@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { Link } from 'gatsby'
+import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
   color: #8899a6;
@@ -17,8 +17,10 @@ export const PostItemWrapper = styled.section`
   padding: 2rem 3rem;
   width: 100%;
 `
+
 export const PostItemTag = styled.div`
   align-items: center;
+  background: ${props => props.background};
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -49,5 +51,5 @@ export const PostItemTitle = styled.h1`
 export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
-  line-height: 1.2
+  line-height: 1.2;
 `
