@@ -1,5 +1,7 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -11,17 +13,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       getNode,
       basePath: "pages",
     })
+
     // Creates new query'able field with name of 'slug'
     createNodeField({
       node,
       name: "slug",
-      //XXXX-XX-XX- <- 11 chars, slug begins @ 12th
       value: `/${slug.slice(12)}`,
     })
   }
 }
 
-// To create the posts pages
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
