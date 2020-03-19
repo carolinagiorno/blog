@@ -6,8 +6,12 @@ category: Misc
 background: "#7AAB13"
 ---
 
+![foto de duna de areia](/assets/img/desert.jpg)
+
 ## Prazer
 
 > Alô Alô vocês sabem quem sou eu? - Inês Brasil
 
 Sou a Carolina Giorno, e este é meu primeiro post.
+
+
