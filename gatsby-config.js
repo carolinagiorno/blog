@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `John Doe`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff.`,
-    author: `@myblog`,
+    title: `Carolina Giorno`,
+    position: `FullStack Developer`,
+    description: `Blog com artigos técnicos e de opinião`,
+    author: `@carolinagiorno`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
